@@ -1,0 +1,9 @@
+from joy import *
+
+p1 = point(x=-100, y=100)
+p2 = point(x=100, y=100)
+p3 = point(x=-100, y=-100)
+p4 = point(x=100, y=-100)
+
+shape = polygon([p1, p2, p3,p4],fill = "yellow", stroke = "red", stroke_width = 5)
+show(shape)
